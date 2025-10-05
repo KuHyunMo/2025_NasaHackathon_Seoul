@@ -100,10 +100,10 @@ def find_closest_fits(input_type, input_re, df_samples):
 #     redshift = float(input("  5. 적색편이 (거리가 멀수록 큼, 예: 0.1): "))
 #     sb_1re = float(input("  6. 표면 밝기 (SB_1RE) (밝을수록 작음, 예: 0.4): "))
     
-#     df_galaxy_samples = get_sample_galaxy_data(sersic_n, ba_ratio, sigma, sfr, redshift, sb_1re)
+#     df_galaxy_samples = get_sample_galaxy_data()
     
 #     # 2. 사용자 입력 및 은하 특성 예측
-#     predicted_type, predicted_size = predict_galaxy_all()
+#     predicted_type, predicted_size = predict_galaxy_all(sersic_n, ba_ratio, sigma, sfr, redshift, sb_1re)
 
 #     # 3. 예측 결과와 가장 유사한 샘플 FITS 파일 찾기
 #     print("\n>>> 3단계: 예측 결과와 가장 유사한 샘플 은하를 찾습니다...")
